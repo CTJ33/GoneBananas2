@@ -10,6 +10,27 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *jungleBackground;
+
+
+@property (weak, nonatomic) IBOutlet UIImageView *showMonkey2;
+
+
+- (IBAction)playbutton1:(id)sender;
+
+- (IBAction)soundbutton:(id)sender;
+
+- (IBAction)podium:(id)sender;
+
+- (IBAction)shoppingcart:(id)sender;
+
+- (IBAction)coconutbutton:(id)sender;
+
+
+
+
+
+
 
 @end
 

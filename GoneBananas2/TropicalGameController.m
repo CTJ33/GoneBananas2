@@ -1,41 +1,37 @@
 //
-//  ViewController.m
+//  TropicalGameController.m
 //  GoneBananas2
 //
-//  Created by Johnson, ColtonTanner on 1/7/15.
+//  Created by Johnson, ColtonTanner on 1/8/15.
 //  Copyright (c) 2015 ColtonJ. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "TropicalGameController.h"
 
-@interface ViewController ()
+@interface TropicalGameController ()
 
 @end
+
 
 int integerWidth;
 int integerHeight;
 
-@implementation ViewController
-@synthesize jungleBackground;
+@implementation TropicalGameController
+@synthesize tropicalBackground;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view.
+[self getScreenWidth];//calls int screen width
 
+  tropicalBackground.frame=CGRectMake(0, 0, integerWidth, integerHeight);
 
-    [self getScreenWidth];//calls int screen width
-
-
-
-    jungleBackground.frame=CGRectMake(0, 0, integerWidth, integerHeight);
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-
 
 
 -(void)getScreenWidth{
@@ -51,26 +47,4 @@ int integerHeight;
 
 
 
-
-
-
-
-
-- (IBAction)playbutton1:(id)sender {
-}
-
-- (IBAction)soundbutton:(id)sender {
-}
-
-- (IBAction)podium:(id)sender {
-}
-
-- (IBAction)shoppingcart:(id)sender {
-}
-
-- (IBAction)coconutbutton:(id)sender {
-}
-
-- (IBAction)coconuts:(id)sender {
-}
 @end

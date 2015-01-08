@@ -14,6 +14,18 @@
 		72D025611A5D99FF00974DD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72D025601A5D99FF00974DD0 /* Images.xcassets */; };
 		72D025641A5D99FF00974DD0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72D025621A5D99FF00974DD0 /* LaunchScreen.xib */; };
 		72D025701A5D99FF00974DD0 /* GoneBananas2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D0256F1A5D99FF00974DD0 /* GoneBananas2Tests.m */; };
+		72D0257A1A5D9A6600974DD0 /* podium.png in Resources */ = {isa = PBXBuildFile; fileRef = 72D025791A5D9A6600974DD0 /* podium.png */; };
+		72D0257C1A5D9A6B00974DD0 /* coconuts.png in Resources */ = {isa = PBXBuildFile; fileRef = 72D0257B1A5D9A6B00974DD0 /* coconuts.png */; };
+		72D0257E1A5D9A7000974DD0 /* showMonkey2.png in Resources */ = {isa = PBXBuildFile; fileRef = 72D0257D1A5D9A7000974DD0 /* showMonkey2.png */; };
+		72D025801A5D9A7500974DD0 /* jungleIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 72D0257F1A5D9A7500974DD0 /* jungleIcon.png */; };
+		72D025841A5D9A8A00974DD0 /* shoppingcart.png in Resources */ = {isa = PBXBuildFile; fileRef = 72D025831A5D9A8A00974DD0 /* shoppingcart.png */; };
+		72D025861A5D9A8F00974DD0 /* sound.png in Resources */ = {isa = PBXBuildFile; fileRef = 72D025851A5D9A8F00974DD0 /* sound.png */; };
+		72D025881A5D9A9300974DD0 /* playbutton1.png in Resources */ = {isa = PBXBuildFile; fileRef = 72D025871A5D9A9300974DD0 /* playbutton1.png */; };
+		72D0258A1A5DB4D600974DD0 /* jungleBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 72D025891A5DB4D600974DD0 /* jungleBackground.png */; };
+		72D0258C1A5EB88F00974DD0 /* beachImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 72D0258B1A5EB88F00974DD0 /* beachImage.png */; };
+		72D0258F1A5EBBA500974DD0 /* Tropical.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D0258E1A5EBBA500974DD0 /* Tropical.m */; };
+		72D025EF1A5F00E900974DD0 /* JungleGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D025EE1A5F00E900974DD0 /* JungleGameController.m */; };
+		72D025F41A5F048100974DD0 /* TropicalGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D025F31A5F048100974DD0 /* TropicalGameController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +52,21 @@
 		72D025691A5D99FF00974DD0 /* GoneBananas2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoneBananas2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72D0256E1A5D99FF00974DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72D0256F1A5D99FF00974DD0 /* GoneBananas2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoneBananas2Tests.m; sourceTree = "<group>"; };
+		72D025791A5D9A6600974DD0 /* podium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = podium.png; sourceTree = "<group>"; };
+		72D0257B1A5D9A6B00974DD0 /* coconuts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coconuts.png; sourceTree = "<group>"; };
+		72D0257D1A5D9A7000974DD0 /* showMonkey2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = showMonkey2.png; sourceTree = "<group>"; };
+		72D0257F1A5D9A7500974DD0 /* jungleIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jungleIcon.png; sourceTree = "<group>"; };
+		72D025831A5D9A8A00974DD0 /* shoppingcart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoppingcart.png; sourceTree = "<group>"; };
+		72D025851A5D9A8F00974DD0 /* sound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sound.png; sourceTree = "<group>"; };
+		72D025871A5D9A9300974DD0 /* playbutton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playbutton1.png; sourceTree = "<group>"; };
+		72D025891A5DB4D600974DD0 /* jungleBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jungleBackground.png; sourceTree = "<group>"; };
+		72D0258B1A5EB88F00974DD0 /* beachImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beachImage.png; sourceTree = "<group>"; };
+		72D0258D1A5EBBA500974DD0 /* Tropical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tropical.h; sourceTree = "<group>"; };
+		72D0258E1A5EBBA500974DD0 /* Tropical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tropical.m; sourceTree = "<group>"; };
+		72D025ED1A5F00E900974DD0 /* JungleGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JungleGameController.h; sourceTree = "<group>"; };
+		72D025EE1A5F00E900974DD0 /* JungleGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JungleGameController.m; sourceTree = "<group>"; };
+		72D025F21A5F047700974DD0 /* TropicalGameController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TropicalGameController.h; sourceTree = "<group>"; };
+		72D025F31A5F048100974DD0 /* TropicalGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TropicalGameController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +113,9 @@
 				72D0255A1A5D99FF00974DD0 /* ViewController.h */,
 				72D0255B1A5D99FF00974DD0 /* ViewController.m */,
 				72D0255D1A5D99FF00974DD0 /* Main.storyboard */,
+				72D025F61A5F04B100974DD0 /* Jungle Game scene */,
+				72D025F51A5F048D00974DD0 /* Tropical Game scene */,
+				72D025F01A5F011900974DD0 /* Home Tropical screen */,
 				72D025601A5D99FF00974DD0 /* Images.xcassets */,
 				72D025621A5D99FF00974DD0 /* LaunchScreen.xib */,
 				72D025531A5D99FF00974DD0 /* Supporting Files */,
@@ -96,6 +126,15 @@
 		72D025531A5D99FF00974DD0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				72D0258B1A5EB88F00974DD0 /* beachImage.png */,
+				72D025851A5D9A8F00974DD0 /* sound.png */,
+				72D025831A5D9A8A00974DD0 /* shoppingcart.png */,
+				72D025891A5DB4D600974DD0 /* jungleBackground.png */,
+				72D0257F1A5D9A7500974DD0 /* jungleIcon.png */,
+				72D025871A5D9A9300974DD0 /* playbutton1.png */,
+				72D0257D1A5D9A7000974DD0 /* showMonkey2.png */,
+				72D0257B1A5D9A6B00974DD0 /* coconuts.png */,
+				72D025791A5D9A6600974DD0 /* podium.png */,
 				72D025541A5D99FF00974DD0 /* Info.plist */,
 				72D025551A5D99FF00974DD0 /* main.m */,
 			);
@@ -117,6 +156,33 @@
 				72D0256E1A5D99FF00974DD0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72D025F01A5F011900974DD0 /* Home Tropical screen */ = {
+			isa = PBXGroup;
+			children = (
+				72D0258D1A5EBBA500974DD0 /* Tropical.h */,
+				72D0258E1A5EBBA500974DD0 /* Tropical.m */,
+			);
+			name = "Home Tropical screen";
+			sourceTree = "<group>";
+		};
+		72D025F51A5F048D00974DD0 /* Tropical Game scene */ = {
+			isa = PBXGroup;
+			children = (
+				72D025F21A5F047700974DD0 /* TropicalGameController.h */,
+				72D025F31A5F048100974DD0 /* TropicalGameController.m */,
+			);
+			name = "Tropical Game scene";
+			sourceTree = "<group>";
+		};
+		72D025F61A5F04B100974DD0 /* Jungle Game scene */ = {
+			isa = PBXGroup;
+			children = (
+				72D025ED1A5F00E900974DD0 /* JungleGameController.h */,
+				72D025EE1A5F00E900974DD0 /* JungleGameController.m */,
+			);
+			name = "Jungle Game scene";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +265,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72D025841A5D9A8A00974DD0 /* shoppingcart.png in Resources */,
 				72D0255F1A5D99FF00974DD0 /* Main.storyboard in Resources */,
 				72D025641A5D99FF00974DD0 /* LaunchScreen.xib in Resources */,
+				72D0257C1A5D9A6B00974DD0 /* coconuts.png in Resources */,
 				72D025611A5D99FF00974DD0 /* Images.xcassets in Resources */,
+				72D025801A5D9A7500974DD0 /* jungleIcon.png in Resources */,
+				72D0257E1A5D9A7000974DD0 /* showMonkey2.png in Resources */,
+				72D0258C1A5EB88F00974DD0 /* beachImage.png in Resources */,
+				72D0257A1A5D9A6600974DD0 /* podium.png in Resources */,
+				72D025881A5D9A9300974DD0 /* playbutton1.png in Resources */,
+				72D025861A5D9A8F00974DD0 /* sound.png in Resources */,
+				72D0258A1A5DB4D600974DD0 /* jungleBackground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +297,9 @@
 				72D0255C1A5D99FF00974DD0 /* ViewController.m in Sources */,
 				72D025591A5D99FF00974DD0 /* AppDelegate.m in Sources */,
 				72D025561A5D99FF00974DD0 /* main.m in Sources */,
+				72D025F41A5F048100974DD0 /* TropicalGameController.m in Sources */,
+				72D025EF1A5F00E900974DD0 /* JungleGameController.m in Sources */,
+				72D0258F1A5EBBA500974DD0 /* Tropical.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +490,7 @@
 				72D025751A5D99FF00974DD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		72D025761A5D99FF00974DD0 /* Build configuration list for PBXNativeTarget "GoneBananas2Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +499,7 @@
 				72D025781A5D99FF00974DD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
