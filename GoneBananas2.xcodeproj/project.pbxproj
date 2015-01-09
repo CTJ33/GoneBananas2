@@ -26,6 +26,9 @@
 		72D0258F1A5EBBA500974DD0 /* Tropical.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D0258E1A5EBBA500974DD0 /* Tropical.m */; };
 		72D025EF1A5F00E900974DD0 /* JungleGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D025EE1A5F00E900974DD0 /* JungleGameController.m */; };
 		72D025F41A5F048100974DD0 /* TropicalGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D025F31A5F048100974DD0 /* TropicalGameController.m */; };
+		72D8434A1A601C40006AA267 /* backOfMonkey1.png in Resources */ = {isa = PBXBuildFile; fileRef = 72D843491A601C40006AA267 /* backOfMonkey1.png */; };
+		72D8434C1A601C44006AA267 /* backOfMonkey2.png in Resources */ = {isa = PBXBuildFile; fileRef = 72D8434B1A601C44006AA267 /* backOfMonkey2.png */; };
+		72D843541A603D46006AA267 /* palmTree.png in Resources */ = {isa = PBXBuildFile; fileRef = 72D843531A603D46006AA267 /* palmTree.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,9 @@
 		72D025EE1A5F00E900974DD0 /* JungleGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JungleGameController.m; sourceTree = "<group>"; };
 		72D025F21A5F047700974DD0 /* TropicalGameController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TropicalGameController.h; sourceTree = "<group>"; };
 		72D025F31A5F048100974DD0 /* TropicalGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TropicalGameController.m; sourceTree = "<group>"; };
+		72D843491A601C40006AA267 /* backOfMonkey1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backOfMonkey1.png; sourceTree = "<group>"; };
+		72D8434B1A601C44006AA267 /* backOfMonkey2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backOfMonkey2.png; sourceTree = "<group>"; };
+		72D843531A603D46006AA267 /* palmTree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = palmTree.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +132,9 @@
 		72D025531A5D99FF00974DD0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				72D843531A603D46006AA267 /* palmTree.png */,
+				72D8434B1A601C44006AA267 /* backOfMonkey2.png */,
+				72D843491A601C40006AA267 /* backOfMonkey1.png */,
 				72D0258B1A5EB88F00974DD0 /* beachImage.png */,
 				72D025851A5D9A8F00974DD0 /* sound.png */,
 				72D025831A5D9A8A00974DD0 /* shoppingcart.png */,
@@ -265,7 +274,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72D8434C1A601C44006AA267 /* backOfMonkey2.png in Resources */,
 				72D025841A5D9A8A00974DD0 /* shoppingcart.png in Resources */,
+				72D8434A1A601C40006AA267 /* backOfMonkey1.png in Resources */,
+				72D843541A603D46006AA267 /* palmTree.png in Resources */,
 				72D0255F1A5D99FF00974DD0 /* Main.storyboard in Resources */,
 				72D025641A5D99FF00974DD0 /* LaunchScreen.xib in Resources */,
 				72D0257C1A5D9A6B00974DD0 /* coconuts.png in Resources */,

@@ -12,5 +12,26 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *tropicalBackground;
 
+- (IBAction)moveRight:(id)sender;
+
+- (IBAction)moveLeft:(id)sender;
+
+- (IBAction)beginButton:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UIButton *startButton;
+
+@property (weak, nonatomic) IBOutlet UIImageView *backOfMonkey1;
+
+
+@property (weak, nonatomic) IBOutlet UIImageView *palmTree1;
+
+@property (weak, nonatomic) IBOutlet UIImageView *palmLeft2;
+
+@property (weak, nonatomic) IBOutlet UIImageView *palmTree2;
+
+@property (weak, nonatomic) IBOutlet UIImageView *palmRight2;
+
+
+
 
 @end

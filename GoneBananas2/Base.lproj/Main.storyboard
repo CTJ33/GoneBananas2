@@ -14,11 +14,11 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jungleBackground.png" id="gRL-Te-Xmz">
                                 <rect key="frame" x="0.0" y="-5" width="320" height="573"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="showMonkey2.png" id="iER-IU-LK7">
                                 <rect key="frame" x="105" y="398" width="238" height="143"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GONE BANANAS!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Qyh-cZ-7CS">
                                 <rect key="frame" x="19" y="20" width="283" height="58"/>
@@ -47,16 +47,6 @@
                                     <action selector="soundbutton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="TMl-Mi-rnV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="PnL-pZ-k2m">
-                                <rect key="frame" x="191" y="448" width="67" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <state key="normal" image="coconuts.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="6gy-pt-20e" kind="modal" id="xpF-UA-p6I"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="1eI-mo-zLH">
                                 <rect key="frame" x="58" y="454" width="75" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -77,6 +67,16 @@
                                     <action selector="podium:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Iwd-kz-nME"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="PnL-pZ-k2m">
+                                <rect key="frame" x="191" y="448" width="67" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <state key="normal" image="coconuts.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="6gy-pt-20e" kind="modal" id="xpF-UA-p6I"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -95,7 +95,7 @@
                 <viewController id="jCq-lN-Fj0" customClass="JungleGameController" sceneMemberID="viewController">
                     <imageView key="view" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jungleBackground.png" id="QHA-aP-eRz">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
                     </imageView>
                     <connections>
                         <outlet property="jungleBackground" destination="QHA-aP-eRz" id="nJZ-i3-fNk"/>
@@ -103,7 +103,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nQ0-8f-Xib" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="614" y="337"/>
+            <point key="canvasLocation" x="615" y="392"/>
         </scene>
         <!--Tropical-->
         <scene sceneID="Dz8-wa-nZg">
@@ -114,8 +114,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beachImage.png" id="xYn-pK-D7x">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="584"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="32" y="48" width="237" height="471"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GONE BANANAS!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="A36-NV-c0w">
                                 <rect key="frame" x="16" y="20" width="283" height="58"/>
@@ -197,10 +197,66 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="palmTree.png" id="hLQ-0Y-ouz">
+                                <rect key="frame" x="169" y="0.0" width="70" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="palmTree.png" id="rC5-i1-Bqu">
+                                <rect key="frame" x="179" y="10" width="70" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uJC-Ka-XqI">
+                                <rect key="frame" x="16" y="20" width="151" height="528"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Left">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="moveLeft:" destination="BY6-Jc-zEr" eventType="touchUpInside" id="drH-Qm-IhK"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="palmTree.png" id="lVm-A8-QPJ">
+                                <rect key="frame" x="-39" y="0.0" width="70" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="palmTree.png" id="nRc-sH-xgi">
+                                <rect key="frame" x="21" y="0.0" width="70" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wXK-rG-vhW">
+                                <rect key="frame" x="52" y="0.0" width="217" height="343"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Tap Here To Start">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="beginButton:" destination="BY6-Jc-zEr" eventType="touchUpInside" id="kzs-kl-EOo"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backOfMonkey1.png" id="OLJ-0R-dJ9">
+                                <rect key="frame" x="21" y="356" width="107" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hf0-wi-SgT">
+                                <rect key="frame" x="169" y="20" width="145" height="528"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Right">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="moveRight:" destination="BY6-Jc-zEr" eventType="touchUpInside" id="gHZ-HY-BeM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="backOfMonkey1" destination="OLJ-0R-dJ9" id="V2q-9N-2Xj"/>
+                        <outlet property="palmLeft2" destination="nRc-sH-xgi" id="jBc-Q7-BT9"/>
+                        <outlet property="palmRight2" destination="rC5-i1-Bqu" id="hLM-3g-kTh"/>
+                        <outlet property="palmTree1" destination="lVm-A8-QPJ" id="exl-4Z-Kc2"/>
+                        <outlet property="palmTree2" destination="hLQ-0Y-ouz" id="y78-J1-gRs"/>
+                        <outlet property="startButton" destination="wXK-rG-vhW" id="PJ4-oS-ugE"/>
                         <outlet property="tropicalBackground" destination="vA8-oh-yER" id="xig-lR-Nqt"/>
                     </connections>
                 </viewController>
@@ -210,10 +266,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="backOfMonkey1.png" width="1672" height="1532"/>
         <image name="beachImage.png" width="553" height="1024"/>
         <image name="coconuts.png" width="200" height="200"/>
         <image name="jungleBackground.png" width="744" height="1380"/>
         <image name="jungleIcon.png" width="132" height="171"/>
+        <image name="palmTree.png" width="63" height="721"/>
         <image name="playbutton1.png" width="128" height="128"/>
         <image name="podium.png" width="256" height="256"/>
         <image name="shoppingcart.png" width="512" height="346"/>
